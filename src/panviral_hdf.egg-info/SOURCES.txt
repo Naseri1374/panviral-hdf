@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/panviral_hdf/__init__.py
+src/panviral_hdf.egg-info/PKG-INFO
+src/panviral_hdf.egg-info/SOURCES.txt
+src/panviral_hdf.egg-info/dependency_links.txt
+src/panviral_hdf.egg-info/requires.txt
+src/panviral_hdf.egg-info/top_level.txt

@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: panviral-hdf
+Version: 0.1.0
+Summary: Pan-viral HDF discovery: MAIC→RF, HAN GNN, and RF+HAN ensemble
+Author: Mohadeseh Naseri
+License: MIT
+Project-URL: Homepage, https://github.com/Naseri1374/panviral-hdf
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: imbalanced-learn
+Requires-Dist: torch
+Requires-Dist: torch-geometric
+Requires-Dist: matplotlib
+Requires-Dist: upsetplot
+Requires-Dist: mygene
+Requires-Dist: openpyxl
+Requires-Dist: tqdm
+Requires-Dist: joblib
+Dynamic: license-file
+
+# panviral-hdf
+Code for a pan-viral map of host dependency factors (IAV, SARS-CoV-2, ZIKV, DENV) using MAIC, HAN, and RF/ensemble; includes ablations and stacking.
