@@ -18,9 +18,8 @@ Code for a pan-viral map of Host Dependency Factors (HDFs) across **IAV, SARS-Co
 ├─ han_hdf_han_final_cv.py          # HAN: nested CV + tuning + final predict-all (ZIKV example)
 ├─ han_ablation_table3.py           # Ablations (optional)
 ├─ ensemble_oof_stacking.py         # Main ensemble (OOF stacking; no leakage)
-├─ ensemble_merge_rf_han_all.py     # Simple HAN+RF merge (weighted avg / meta-LR)
-├─ _ENSEMBLE_OUT/                   # Ensemble outputs (created at runtime)
-└─ data/                            # Put your inputs here (recommended)
+└─ ensemble_merge_rf_han_all.py     # Simple HAN+RF merge (weighted avg / meta-LR)
+ 
 ```
 
 ---
