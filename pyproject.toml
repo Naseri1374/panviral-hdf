@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "panviral-hdf"
+version = "0.1.0"
+description = "Pan-viral HDF discovery: MAIC→RF, HAN GNN, and RF+HAN ensemble"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{ name = "Mohadeseh Naseri"}]
+dependencies = [
+  "numpy","pandas","scikit-learn","imbalanced-learn","torch",
+  "torch-geometric","matplotlib","upsetplot","mygene","openpyxl",
+  "tqdm","joblib"
+]
+
+[project.urls]
+Homepage = "https://github.com/Naseri1374/panviral-hdf"
