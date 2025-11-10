@@ -1,4 +1,4 @@
-# panviral-hdf
+# Panviral-hdf
 Code for a pan-viral map of Host Dependency Factors (HDFs) across **IAV, SARS-CoV-2, ZIKV, DENV** using **MAIC**, a **Heterogeneous Graph Neural Network (HAN)** with meta-paths, and a **Random Forest (RF) + XGBoost + ensemble**. Includes leakage-safe splits, **OOF stacking**, and **ablations**.
 
 ---
